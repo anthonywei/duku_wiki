@@ -1,0 +1,25 @@
+
+<p>
+<p>配置中心zabbix监控</p><p><a href=/wiki/lib/xheditor-1.1.14/demos/upload/day_140212/201402121344307640.pptx>点击打开链接</a><br /></p><p><br /></p><p><a href="/wiki/doku.php?id=%E6%B5%8B%E8%AF%95%E9%93%BE%E6%8E%A5" class="wikilink1" title="测试链接">测试链接</a></p><p><a href="/wiki/doku.php?id=%E9%85%8D%E7%BD%AE%E4%B8%AD%E5%BF%83" class="wikilink1" title="配置中心">配置中心</a></p><p><br /></p><p><a href=/wiki/lib/xheditor-1.1.14/demos/upload/day_140212/201402121351592854.pptx>点击打开链接</a><br /></p><p><a href="/wiki/doku.php?id=test" class="wikilink1" title="test">test</a></p><pre class=prettyprint lang-php>&lt;?php
+</p>
+
+<p>
+for($i=0;$i&lt;$urlCount;$i++){
+</p>
+<pre class="code"> $localUrl=saveRemoteImg($arrUrls[$i]);
+ if($localUrl)$arrUrls[$i]=$localUrl;</pre>
+
+<p>
+}
+foreach($arrUrlsas $key=&gt;$vo){
+</p>
+<pre class="code">  $arrUrls[$key]=$_GET[&#039;prefix&#039;].&#039;lib/xheditor-1.1.14/demos/&#039;.$vo;</pre>
+
+<p>
+}
+echo implode('|',$arrUrls);
+</p>
+
+<p>
+?&gt;</pre><p>附件为：<a href="http://172.16.0.151/wiki/lib/exe/fetch.php?media=%E5%B8%B8%E7%94%A8%E5%AD%97%E7%AC%A6%E9%9B%86%E5%92%8C%E7%BC%96%E7%A0%81%E6%95%B4%E7%90%86.pptx" class="urlextern" title="http://172.16.0.151/wiki/lib/exe/fetch.php?media=%E5%B8%B8%E7%94%A8%E5%AD%97%E7%AC%A6%E9%9B%86%E5%92%8C%E7%BC%96%E7%A0%81%E6%95%B4%E7%90%86.pptx"  rel="nofollow">http://172.16.0.151/wiki/lib/exe/fetch.php?media=%E5%B8%B8%E7%94%A8%E5%AD%97%E7%AC%A6%E9%9B%86%E5%92%8C%E7%BC%96%E7%A0%81%E6%95%B4%E7%90%86.pptx</a></p><p><img src=/wiki/lib/xheditor-1.1.14/demos/upload/day_140212/201402121350384592.png alt= /><br /></p>
+</p>

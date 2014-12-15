@@ -1,0 +1,12 @@
+<p>配置中心zabbix监控</p><p><a href="/wiki/lib/xheditor-1.1.14/demos/upload/day_140212/201402121344307640.pptx">点击打开链接</a><br /></p><p><br /></p><p>[[测试链接]]</p><p>[[配置中心]]</p><p><br /></p><p><a href="/wiki/lib/xheditor-1.1.14/demos/upload/day_140212/201402121351592854.pptx">点击打开链接</a><br /></p><p>[[test]]</p><pre class="prettyprint lang-php">&lt;?php
+
+for($i=0;$i&lt;$urlCount;$i++){
+   $localUrl=saveRemoteImg($arrUrls[$i]);
+   if($localUrl)$arrUrls[$i]=$localUrl;
+}
+foreach($arrUrlsas $key=&gt;$vo){
+    $arrUrls[$key]=$_GET['prefix'].'lib/xheditor-1.1.14/demos/'.$vo;
+}
+echo implode('|',$arrUrls);
+
+?&gt;</pre><p></p><p>附件为：[[http://172.16.0.151/wiki/lib/exe/fetch.php?media=%E5%B8%B8%E7%94%A8%E5%AD%97%E7%AC%A6%E9%9B%86%E5%92%8C%E7%BC%96%E7%A0%81%E6%95%B4%E7%90%86.pptx]]</p><p><img src="/wiki/lib/xheditor-1.1.14/demos/upload/day_140212/201402121350384592.png" alt="" /><br /></p>

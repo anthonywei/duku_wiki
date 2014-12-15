@@ -1,0 +1,1 @@
+<p><span style="font-family:monospace;">[[xxx:aaaa]]</span></p>
